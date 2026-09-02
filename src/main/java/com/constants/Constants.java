@@ -3,8 +3,8 @@ package com.constants;
 public class Constants {
 	
 	public static final String URL="jdbc:mysql://localhost:3306/gated_community";
-	public static final String USERNAME="root";
-	public static final String PASSWORD="Kusuma@1698";
+	public static final String USERNAME="username";
+	public static final String PASSWORD="password";
 	
 	public static final String INSERT_RESIDENTS="insert into residents(user_name,password,email,full_name,role,phone_number) values(?,?,?,?,?,?)";
 
